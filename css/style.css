@@ -1,0 +1,102 @@
+/* this is setting the default of the webpage to 0  */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* setting the overall body properties  */
+body {
+  background-color: #c2dedc;
+}
+/* where all the inforation is for the header section  */
+header > img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+}
+/* styling for the navigation */
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ece5c7;
+  width: 75%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  padding: 1rem 0;
+  margin: 0 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #116a7b;
+  font-size: 2rem;
+}
+/* styling to add an image for the promotion section  */
+.promo-img {
+  background-image: url("../images/food-image.webp");
+  background-repeat: no-repeat, repeat;
+  width: 35%;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  color: white;
+}
+
+.promo-img h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* styling for the sections  */
+section {
+  display: flex;
+  text-align: center;
+}
+/* styling for the article */
+article {
+  flex: 1;
+  text-align: center;
+}
+.card {
+  background-color: #ece5c7;
+  margin: 2rem 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  color: #116a7b;
+  overflow: auto;
+}
+.card h2 {
+  margin: 0.5rem 1rem;
+}
+.card p {
+  margin-bottom: 1rem;
+}
+.card a {
+  text-decoration: none;
+  color: #116a7b;
+}
+/* styling for the footer  */
+footer {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+div > img {
+  width: 3rem;
+}
+
+footer p {
+  padding-top: 1.5rem;
+  color: white;
+  position: absolute;
+  right: 0;
+}
